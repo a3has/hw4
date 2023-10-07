@@ -1,0 +1,23 @@
+def increment_int_a(someval):
+    someval += 1
+
+def increment_int_b(someval):
+    someval['32'] += 1
+
+def main():
+    a = 32
+    increment_int_a(a)
+    b = {'32':0}
+    increment_int_b(b)
+
+
+    1. no
+
+    2. yes
+
+    3. The variable 'a' in python is immutable, that means its value cannot be changed in place
+    after its creation. It can only be modified by creating a copy of 'a' and incrementing that.
+    However, 'b' is a dictionary which is mutable. This means any changes made affect the 
+    original dictionary object 'b', and can be seen. 
+    This is why we were able to see that 'a' has not been incremented and stayed 32, while 'b'
+    was modified by incrementing its number value by 1 that corresponds to key '32'.

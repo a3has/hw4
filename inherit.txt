@@ -1,0 +1,14 @@
+Q5: Why do we use inheritance?
+
+1. Code reusability: inheritance allows us to reuse code by defining common attributes and behaviors in a 
+base class that a child class can also use (inherit). This helps reduce the amount of code we write and 
+eliminate redundancy. 
+    --> for example, I can make a bird base class with color and flySpeed as attributes 
+    I can have hawk and pigeon inherit the attributes from base class bird where each species has its
+    own color and flying speed without having to redefine them.
+
+2. Easier maintenance: Performing any change or fixes in a derived class will only affect that section
+of our code, and won't cause a chain of errors for other classes. 
+Vice versa, fixing or adding features in the base classes fixes subsequent errors in all the derived 
+classes. All in all, we spend much less time maintaining our code and we produce less chances of creating
+errors or bugs.
