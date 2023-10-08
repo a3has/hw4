@@ -2,5 +2,5 @@ def allcaps(text):
     def wrapper():
         temp = text()
         cap = temp.upper()
-        return cap
+        print(cap)
     return wrapper
