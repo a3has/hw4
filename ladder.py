@@ -1,4 +1,4 @@
-def mysteps(n): 
+def my_steps(n): 
     if n < 1 or n > 25:
         raise ValueError("Input out of bounds.")
     
@@ -9,4 +9,4 @@ def mysteps(n):
     
     return recMySteps(n)
 
-#print(mysteps(4))
+#print(my_steps(4))
